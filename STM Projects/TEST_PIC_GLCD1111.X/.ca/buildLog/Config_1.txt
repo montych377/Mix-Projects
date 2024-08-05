@@ -1,0 +1,35 @@
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/Users/Sofcon_Lab2/Desktop/STM Projects/TEST_PIC_GLCD1111.X'
+rm -f  -r .ca/build/Config_1/production
+rm -f  -r .ca/dist/Config_1/production
+make[1]: Leaving directory 'C:/Users/Sofcon_Lab2/Desktop/STM Projects/TEST_PIC_GLCD1111.X'
+[32mCLEAN SUCCESSFUL (total time: 153ms)[0m
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'C:/Users/Sofcon_Lab2/Desktop/STM Projects/TEST_PIC_GLCD1111.X'
+make  -f nbproject/Makefile-Config_1.mk .ca/dist/Config_1/production/TEST_PIC_GLCD1111.X.production.hex
+make[2]: Entering directory 'C:/Users/Sofcon_Lab2/Desktop/STM Projects/TEST_PIC_GLCD1111.X'
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F877A -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits       -o .ca/build/Config_1/production/newmain.p1 newmain.c 
+::: advisory: (2049) C99 compliant libraries are currently not available for baseline or mid-range devices, or for enhanced mid-range devices using a reentrant stack; using C90 libraries
+newmain.c:96:18: warning: implicit conversion loses integer precision: 'int' to 'char' [-Wconversion]
+    glcd_cmd(0xB8+x);
+    ~~~~~~~~ ~~~~^~
+newmain.c:97:18: warning: implicit conversion loses integer precision: 'int' to 'char' [-Wconversion]
+    glcd_cmd(0x40+y);
+    ~~~~~~~~ ~~~~^~
+newmain.c:116:23: warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned long') to 'char' [-Wconversion]
+            glcd_data(sys5x7[i]);
+            ~~~~~~~~~ ^~~~~~~~~
+3 warnings generated.
+"C:\Program Files\Microchip\xc8\v2.41\bin\xc8-cc.exe"  -mcpu=16F877A -Wl,-Map=.ca/dist/Config_1/production/TEST_PIC_GLCD1111.X.production.map  -DXPRJ_Config_1=Config_1  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mdefault-config-bits      -Wl,--memorysummary,.ca/dist/Config_1/production/memoryfile.xml -o .ca/dist/Config_1/production/TEST_PIC_GLCD1111.X.production.elf  .ca/build/Config_1/production/newmain.p1     
+::: advisory: (2049) C99 compliant libraries are currently not available for baseline or mid-range devices, or for enhanced mid-range devices using a reentrant stack; using C90 libraries
+[31mmake[2]: *** [.ca/dist/Config_1/production/TEST_PIC_GLCD1111.X.production.hex] Error 1
+make[1]: *** [.build-conf] Error 2
+make: *** [.build-impl] Error 2[0m
+./GLCD.h:4:: error: (1250) could not find space (1920 bytes) for variable _sys5x7
+(908) exit status = 1
+nbproject/Makefile-Config_1.mk:132: recipe for target '.ca/dist/Config_1/production/TEST_PIC_GLCD1111.X.production.hex' failed
+make[2]: Leaving directory 'C:/Users/Sofcon_Lab2/Desktop/STM Projects/TEST_PIC_GLCD1111.X'
+nbproject/Makefile-Config_1.mk:85: recipe for target '.build-conf' failed
+make[1]: Leaving directory 'C:/Users/Sofcon_Lab2/Desktop/STM Projects/TEST_PIC_GLCD1111.X'
+nbproject/Makefile-impl.mk:39: recipe for target '.build-impl' failed
+[31mBUILD FAILED (exit value 2, total time: 672ms)[0m

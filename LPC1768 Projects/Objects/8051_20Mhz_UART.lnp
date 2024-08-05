@@ -1,0 +1,3 @@
+".\Objects\main_1.obj" 
+TO ".\Objects\8051_20Mhz_UART" 
+PRINT(".\Listings\8051_20Mhz_UART.m51")

@@ -1,0 +1,12 @@
+Dependencies for Project 'ADC_Example1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060061::V5.06 update 1 (build 61)::ARMCC
+F (.\startup_LPC17xx.s)(0x64D4BBE1)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 517"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\main.c)(0x64D4BBE1)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\KeilExamples\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (..\..\KeilExamples\00-libfiles\delay.c)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\delay.h)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\gpio.c)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\gpio.h)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\lcd.c)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\lcd.h)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\stdutils.h)(0x64D4BBC7)()
+F (..\..\KeilExamples\00-libfiles\system_LPC17xx.c)(0x64D4BBC7)()

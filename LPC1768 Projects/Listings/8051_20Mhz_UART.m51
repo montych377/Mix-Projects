@@ -1,0 +1,169 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    05/08/2024  22:14:37  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\main_1.obj TO .\Objects\8051_20Mhz_UART PRINT (.\Listings\8051_20Mhz_UART.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\main_1.obj (MAIN_1)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDPTR)
+
+
+LINK MAP OF MODULE:  .\Objects\8051_20Mhz_UART (MAIN_1)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0004H     UNIT         _DATA_GROUP_
+            IDATA   000CH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     0026H     UNIT         ?PR?_DELAY?MAIN_1
+            CODE    0826H     0025H     UNIT         ?PR?_UART_STRING?MAIN_1
+            CODE    084BH     001DH     UNIT         ?PR?MAIN?MAIN_1
+            CODE    0868H     0019H     UNIT         ?C?LIB_CODE
+            CODE    0881H     000CH     UNIT         ?PR?UART_INIT?MAIN_1
+            CODE    088DH     000CH     UNIT         ?C_C51STARTUP
+            CODE    0899H     000AH     UNIT         ?CO?MAIN_1
+            CODE    08A3H     0008H     UNIT         ?PR?_UART_TX?MAIN_1
+            CODE    08ABH     0008H     UNIT         ?PR?UART_RX?MAIN_1
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\8051_20Mhz_UART (MAIN_1)
+
+
+SEGMENT                           DATA_GROUP 
+  +--> CALLED SEGMENT           START    LENGTH
+-----------------------------------------------
+?C_C51STARTUP                   -----    -----
+  +--> ?PR?MAIN?MAIN_1
+
+?PR?MAIN?MAIN_1                 0008H    0001H
+  +--> ?PR?UART_INIT?MAIN_1
+  +--> ?CO?MAIN_1
+  +--> ?PR?_UART_STRING?MAIN_1
+  +--> ?PR?UART_RX?MAIN_1
+  +--> ?PR?_UART_TX?MAIN_1
+  +--> ?PR?_DELAY?MAIN_1
+
+?PR?_UART_STRING?MAIN_1         0009H    0003H
+  +--> ?PR?_UART_TX?MAIN_1
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/08/2024  22:14:37  PAGE 2
+
+
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\8051_20Mhz_UART (MAIN_1)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN_1
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0800H         PUBLIC        _delay
+  B:0098H.0       PUBLIC        RI
+  B:0098H.1       PUBLIC        TI
+  C:084BH         PUBLIC        main
+  D:0099H         PUBLIC        SBUF
+  C:0881H         PUBLIC        UART_Init
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  C:0826H         PUBLIC        _UARt_String
+  C:08ABH         PUBLIC        UART_RX
+  C:08A3H         PUBLIC        _UART_TX
+  D:008DH         PUBLIC        TH1
+  B:0088H.6       PUBLIC        TR1
+  -------         PROC          UART_INIT
+  C:0881H         LINE#         3
+  C:0881H         LINE#         4
+  C:0881H         LINE#         5
+  C:0884H         LINE#         6
+  C:0887H         LINE#         7
+  C:088AH         LINE#         8
+  C:088CH         LINE#         9
+  -------         ENDPROC       UART_INIT
+  -------         PROC          _UART_TX
+  D:0007H         SYMBOL        dat
+  C:08A3H         LINE#         11
+  C:08A3H         LINE#         12
+  C:08A3H         LINE#         13
+  C:08A5H         LINE#         14
+  C:08A8H         LINE#         15
+  C:08AAH         LINE#         16
+  -------         ENDPROC       _UART_TX
+  -------         PROC          UART_RX
+  C:08ABH         LINE#         18
+  C:08ABH         LINE#         19
+  C:08ABH         LINE#         20
+  C:08AEH         LINE#         21
+  C:08B0H         LINE#         22
+  C:08B2H         LINE#         23
+  -------         ENDPROC       UART_RX
+  -------         PROC          _UART_STRING
+  D:0009H         SYMBOL        ptr
+  C:0826H         LINE#         24
+  C:082CH         LINE#         25
+  C:082CH         LINE#         26
+  C:0837H         LINE#         27
+  C:0837H         LINE#         28
+  C:0848H         LINE#         29
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  05/08/2024  22:14:37  PAGE 3
+
+
+  C:084AH         LINE#         31
+  -------         ENDPROC       _UART_STRING
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        ms
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:0800H         LINE#         32
+  C:0800H         LINE#         33
+  C:0800H         LINE#         35
+  C:0810H         LINE#         36
+  C:0810H         LINE#         37
+  C:0813H         LINE#         38
+  C:0813H         LINE#         40
+  C:081EH         LINE#         41
+  C:0825H         LINE#         42
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        x
+  -------         ENDDO         
+  C:084BH         LINE#         43
+  C:084BH         LINE#         44
+  C:084BH         LINE#         45
+  C:084EH         LINE#         46
+  C:0857H         LINE#         47
+  C:0857H         LINE#         48
+  C:0857H         LINE#         50
+  C:085CH         LINE#         51
+  C:085FH         LINE#         52
+  C:0866H         LINE#         53
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN_1
+
+  -------         MODULE        ?C?CLDPTR
+  C:0868H         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 008EH BYTE ( 6%) *
+******************************************************************************
+
+Program Size: data=13.0 xdata=0 code=182
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

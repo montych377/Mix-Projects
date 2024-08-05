@@ -1,0 +1,313 @@
+Dependencies for Project '15_FreeRTOS', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\task.h)(0x653A0249)()
+F (.\15_main.c)(0x644917E5)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/15_main.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (FreeRTOS.h)(0x64490012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (projdefs.h)(0x64490167)
+I (FreeRTOSConfig.h)(0x6448E6A0)
+I (portable.h)(0x64490298)
+I (portmacro.h)(0x644901A1)
+I (mpu_wrappers.h)(0x64490276)
+I (list.h)(0x6448FCC6)
+I (task.h)(0x653A0249)
+F (.\FreeRTOS.h)(0x64490012)()
+F (.\list.h)(0x6448FCC6)()
+F (.\FreeRTOSConfig.h)(0x6448E6A0)()
+F (.\projdefs.h)(0x64490167)()
+F (.\portable.h)(0x64490298)()
+F (.\deprecated_definitions.h)(0x644901C3)()
+F (.\portmacro.h)(0x644901A1)()
+F (.\mpu_wrappers.h)(0x64490276)()
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Boards/Keil/MCB1700/Common/ADC_MCB1700.c)(0x5E1E3534)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/adc_mcb1700.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\RTE_Driver\PIN_LPC17xx.h)(0x5D5C544A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_ADC.h)(0x5D14D43A)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver/GPIO_LPC17xx.c)(0x5D5C544A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/gpio_lpc17xx.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\RTE_Driver\GPIO_LPC17xx.h)(0x5D5C544A)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver/PIN_LPC17xx.c)(0x5D5C544A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/pin_lpc17xx.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\RTE_Driver\PIN_LPC17xx.h)(0x5D5C544A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63891BF8)
+F (RTE/Device/LPC1768/RTE_Device.h)(0x5D5C544A)()
+F (RTE/Device/LPC1768/startup_LPC17xx.s)(0x5849B012)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"LPC175x_6x SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc17xx.o)
+F (RTE/Device/LPC1768/system_LPC17xx.c)(0x5E1E3534)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/system_lpc17xx.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/freertos_evr.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\semphr.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\event_groups.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/croutine.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/croutine.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\croutine.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/event_groups.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/event_groups.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\event_groups.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/list.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3/port.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/port.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/MemMang/heap_4.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/stream_buffer.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/stream_buffer.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stack_macros.h)(0x63878710)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c)(0x63878710)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM3-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_ -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o ./objects/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63878710)
+I (RTE\_Target_1\RTE_Components.h)(0x653A0238)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x63878710)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x63878710)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x63878710)
+F (RTE/RTOS/FreeRTOSConfig.h)(0x63878710)()

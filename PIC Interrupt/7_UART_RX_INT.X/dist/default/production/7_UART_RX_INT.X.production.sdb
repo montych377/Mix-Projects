@@ -1,0 +1,155 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"20 C:\Users\Sofcon_Lab2\Desktop\ALL FOLDERS\PIC Interrupt\7_UART_RX_INT.X\newmain.c
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+[v i1_LCD_Command LCD_Command `(v  1 e 1 0 ]
+"30
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+"41
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+"52
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"60
+[v _UART_Initializer UART_Initializer `(v  1 e 1 0 ]
+"71
+[v _UART_TX UART_TX `II(v  1 e 1 0 ]
+"96
+[v _main main `(i  1 e 2 0 ]
+"217 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"341
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S56 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"478
+[s S65 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S70 . 1 `S56 1 . 1 0 `S65 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES70  1 e 1 @11 ]
+"965
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"1067
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S35 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"1636
+[u S44 . 1 `S35 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES44  1 e 1 @140 ]
+"2000
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"2081
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2520
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2619
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"2748
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"15 C:\Users\Sofcon_Lab2\Desktop\ALL FOLDERS\PIC Interrupt\7_UART_RX_INT.X\newmain.c
+[v _data data `VEuc  1 e 1 0 ]
+"16
+[v _arr arr `VE[5]uc  1 e 5 0 ]
+"17
+[v _counter counter `VEuc  1 e 1 0 ]
+"96
+[v _main main `(i  1 e 2 0 ]
+{
+"101
+} 0
+"60
+[v _UART_Initializer UART_Initializer `(v  1 e 1 0 ]
+{
+[v UART_Initializer@baud baud `ul  1 p 4 14 ]
+"69
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"41 C:\Users\Sofcon_Lab2\Desktop\ALL FOLDERS\PIC Interrupt\7_UART_RX_INT.X\newmain.c
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"20
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"22
+[v LCD_Command@cmd cmd `uc  1 a 1 2 ]
+"29
+} 0
+"71
+[v _UART_TX UART_TX `II(v  1 e 1 0 ]
+{
+"94
+} 0
+"20
+[v i1_LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v i1LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v i1LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"22
+[v i1LCD_Command@cmd cmd `uc  1 a 1 2 ]
+"29
+} 0
+"52
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@ptr ptr `*.4VEuc  1 a 1 wreg ]
+[v LCD_String@ptr ptr `*.4VEuc  1 a 1 wreg ]
+[v LCD_String@ptr ptr `*.4VEuc  1 a 1 3 ]
+"57
+} 0
+"30
+[v _LCD_Data LCD_Data `(v  1 e 1 0 ]
+{
+[v LCD_Data@data data `uc  1 a 1 wreg ]
+[v LCD_Data@data data `uc  1 a 1 wreg ]
+"32
+[v LCD_Data@data data `uc  1 a 1 2 ]
+"39
+} 0

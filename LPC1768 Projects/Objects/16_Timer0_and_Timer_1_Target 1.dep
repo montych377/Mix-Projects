@@ -1,0 +1,59 @@
+Dependencies for Project '16_Timer0_and_Timer_1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\timer.h)(0x644F6585)()
+F (.\timer.c)(0x644F67D0)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/timer.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (type.h)(0x644F64F7)
+I (timer.h)(0x644F6585)
+F (.\type.h)(0x644F64F7)()
+F (.\type.c)(0x644F64BD)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/type.o -MD)
+F (.\16_Main.c)(0x644F6805)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/16_main.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\lpc17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (type.h)(0x644F64F7)
+I (timer.h)(0x644F6585)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver/GPIO_LPC17xx.c)(0x5D5C544A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/gpio_lpc17xx.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\RTE_Driver\GPIO_LPC17xx.h)(0x5D5C544A)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+F (C:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver/PIN_LPC17xx.c)(0x5D5C544A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/pin_lpc17xx.o -MD)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\RTE_Driver\PIN_LPC17xx.h)(0x5D5C544A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63891BF8)
+F (RTE/Device/LPC1768/RTE_Device.h)(0x5D5C544A)()
+F (RTE/Device/LPC1768/startup_LPC17xx.s)(0x5849B012)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"LPC175x_6x SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc17xx.o)
+F (RTE/Device/LPC1768/system_LPC17xx.c)(0x5E1E3534)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/LPC1768-I./RTE/_Target_1-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/Device/Include-IC:/Users/Sofcon_Lab2/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DLPC175x_6x -D_RTE_-o ./objects/system_lpc17xx.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E3534)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x62701DCE)
+I (C:\Users\Sofcon_Lab2\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x5849B012)

@@ -1,0 +1,50 @@
+C51 COMPILER V9.60.7.0   MAIN_U                                                            05/08/2024 22:49:01 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN_U
+OBJECT MODULE PLACED IN .\Objects\main_u.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main_u.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in_u.lst) TABS(2) OBJECT(.\Objects\main_u.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          
+   3          
+   4          
+   5          int main()
+   6          {
+   7   1        int i;
+   8   1        unsigned char a;
+   9   1        SCON = 0x50;
+  10   1        TMOD = 0x20;
+  11   1        TH1 = TL1 = 0xFD;
+  12   1        TR1 = 1;
+  13   1        
+  14   1        while(1)
+  15   1        {
+  16   2          
+  17   2          SBUF = 'A';
+  18   2          while(TI == 0);
+  19   2          TI = 0;
+  20   2          for(i = 0;i<10000;i++);
+  21   2      
+  22   2        }
+  23   1        
+  24   1      }
+*** WARNING C280 IN LINE 8 OF main_u.c: 'a': unreferenced local variable
+  25            
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     43    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,78 @@
+C51 COMPILER V9.60.7.0   SHIFT_MAIN                                                        08/12/2023 05:23:52 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE SHIFT_MAIN
+OBJECT MODULE PLACED IN .\Objects\shift_main.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE shift_main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listing
+                    -s\shift_main.lst) TABS(2) OBJECT(.\Objects\shift_main.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          
+   3          sbit LATCH = P1^0;
+   4          sbit DATA = P1^1;
+   5          sbit CLOCK = P1^2;
+   6          
+   7          void delay_ms(int ms) {
+   8   1        
+   9   1        unsigned int i,j;
+  10   1        
+  11   1        for(i=0;i<ms;i++){
+  12   2          for(j=0;j<125;j++){
+  13   3          }
+  14   2        }
+  15   1      }
+  16          
+  17          void latchdata(){
+  18   1        
+  19   1        LATCH = 0;
+  20   1        delay_ms(1);
+  21   1        LATCH = 1;;
+  22   1        delay_ms(1);
+  23   1      }
+  24          
+  25          void SendData(unsigned char xbyte) {
+  26   1        unsigned char i=0;
+  27   1        for(i=0;i<8;i++) {
+  28   2          
+  29   2          DATA = (xbyte>>i) & 0x01;
+  30   2          CLOCK = 1;
+  31   2          delay_ms(1);
+  32   2          CLOCK = 0;
+  33   2          delay_ms(1);
+  34   2        }
+  35   1        
+  36   1        latchdata();
+  37   1      }
+  38          
+  39          
+  40          int main () {
+  41   1        
+  42   1        unsigned char datavalue = 0x55;
+  43   1        
+  44   1        while(1) {
+  45   2          
+  46   2          SendData(datavalue);
+  47   2          
+  48   2          datavalue = ~datavalue;
+  49   2          
+  50   2          delay_ms(1000);
+  51   2        }
+  52   1      }
+
+
+C51 COMPILER V9.60.7.0   SHIFT_MAIN                                                        08/12/2023 05:23:52 PAGE 2   
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    105    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\shift_main.obj" 
+TO ".\Objects\8051_shift_reg" 
+PRINT(".\Listings\8051_shift_reg.m51") RAMSIZE(256) 

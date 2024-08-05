@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/production/8x8_Dot_Matrix.X.production.elf">                 
+    <memory name="program">              
+      <units>bytes</units>                 
+      <length>8192</length>                 
+      <used>328</used>                     
+      <free>7864</free>                     
+    </memory>                              
+    <memory name="data">                 
+      <units>bytes</units>                 
+      <length>1024</length>                 
+      <used>8</used>                     
+      <free>1016</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

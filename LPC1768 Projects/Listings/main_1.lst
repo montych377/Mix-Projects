@@ -1,0 +1,80 @@
+C51 COMPILER V9.60.7.0   MAIN_1                                                            05/08/2024 22:14:35 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN_1
+OBJECT MODULE PLACED IN .\Objects\main_1.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main_1.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in_1.lst) TABS(2) OBJECT(.\Objects\main_1.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          
+   3          void UART_Init()
+   4          {
+   5   1        TMOD = 0x20;
+   6   1        TH1 = 0XFD;
+   7   1        SCON = 0X50;
+   8   1        TR1 = 1;
+   9   1      }
+  10          
+  11          void UART_TX(unsigned char dat)
+  12          { 
+  13   1        SBUF = dat;
+  14   1        while(TI == 0);
+  15   1        TI = 0;
+  16   1      }
+  17          
+  18          char UART_RX( void )
+  19          {
+  20   1        while(!RI);
+  21   1        RI = 0;
+  22   1        return SBUF;
+  23   1      }
+  24          void UARt_String(unsigned char *ptr)
+  25          {
+  26   1        while(*ptr)
+  27   1        {
+  28   2          UART_TX(*ptr++);
+  29   2        }
+  30   1        
+  31   1      }
+  32          void delay(int ms)
+  33          {
+  34   1        int i,j;
+  35   1        for(i=0;i<ms;i++)
+  36   1        {
+  37   2          for(j=0;j<1000;j++)
+  38   2          {
+  39   3            
+  40   3          }
+  41   2        }
+  42   1      }
+  43          int main()
+  44          {
+  45   1        UART_Init();
+  46   1        UARt_String("jhdkagdea");
+  47   1        while(1)
+  48   1        {
+  49   2          
+  50   2          char x = UART_RX();
+  51   2          UART_TX(x);
+  52   2          delay(100);
+  53   2        }
+  54   1      }
+C51 COMPILER V9.60.7.0   MAIN_1                                                            05/08/2024 22:14:35 PAGE 2   
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    132    ----
+   CONSTANT SIZE    =     10    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       4
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

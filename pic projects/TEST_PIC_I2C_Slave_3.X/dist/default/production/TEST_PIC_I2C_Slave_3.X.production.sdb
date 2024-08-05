@@ -1,0 +1,126 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"21 C:\Users\Sofcon_Lab2\Desktop\TEST_PIC_I2C_Slave_3.X\newmain.c
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"31
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"41
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"48
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+"62
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"81
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"86
+[v _main main `(v  1 e 1 0 ]
+"217 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"341
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"809
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"816
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S55 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"836
+[s S61 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S66 . 1 `S55 1 . 1 0 `S61 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES66  1 e 1 @20 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S34 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1455
+[u S43 . 1 `S34 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES43  1 e 1 @135 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1755
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1824
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1831
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2826
+[v _SSPIE SSPIE `VEb  1 e 0 @1123 ]
+"2829
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"20 C:\Users\Sofcon_Lab2\Desktop\TEST_PIC_I2C_Slave_3.X\newmain.c
+[v _receivedData receivedData `VEuc  1 e 1 0 ]
+"86
+[v _main main `(v  1 e 1 0 ]
+{
+"99
+[v main@i i `i  1 a 2 10 ]
+"87
+[v main@arr arr `[10]uc  1 a 10 0 ]
+"107
+} 0
+"81
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@ptr ptr `*.26uc  1 p 2 3 ]
+"85
+} 0
+"31
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@data data `uc  1 a 1 wreg ]
+[v lcd_data@data data `uc  1 a 1 wreg ]
+[v lcd_data@data data `uc  1 a 1 2 ]
+"39
+} 0
+"41
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"47
+} 0
+"21
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_cmd@cmd cmd `uc  1 a 1 2 ]
+"29
+} 0
+"62
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+{
+"69
+} 0
+"48
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+{
+[v I2C_Initialize@address address `uc  1 a 1 wreg ]
+[v I2C_Initialize@address address `uc  1 a 1 wreg ]
+[v I2C_Initialize@address address `uc  1 a 1 0 ]
+"60
+} 0
